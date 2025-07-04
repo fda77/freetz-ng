@@ -70,7 +70,7 @@ Latest changes
    * ncurses 6.5-20250419
    * openssl 3.5.1
    * pkgconf 2.4.3
-   * precompiled host-tools 2025-05-20
+   * precompiled host-tools 2025-07-04
    * precompiled toolchains r25866
    * python 3.13.5
    * python2-pip 20.3.4
