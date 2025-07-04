@@ -139,8 +139,8 @@ jobs:
           for x in  COMPRESSED  UNCOMPRESSED                        ; do echo "FREETZ_SIZEINFO_$x=y"  >> .config; done
           echo '# FREETZ_TOOLCHAIN_CCACHE is not set'                                                 >> .config
           echo 'FREETZ_VERBOSITY_FWMOD_2=y'                                                           >> .config
-          echo 'FREETZ_VERBOSITY_LEVEL_0=y'                                                           >> .config
-          echo 'FREETZ_VERBOSITY_LEVEL=0'                                                             >> .config
+          echo 'FREETZ_VERBOSITY_LEVEL_2=y'                                                           >> .config
+          echo 'FREETZ_VERBOSITY_LEVEL=2'                                                             >> .config
           echo 'FREETZ_SERIES_ALL=y'                                                                  >> .config
           echo 'FREETZ_USER_LEVEL_DEVELOPER=y'                                                        >> .config
           echo '# FREETZ_MODULES_TEST is not set'                                                     >> .config
