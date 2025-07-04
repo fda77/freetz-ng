@@ -24,7 +24,7 @@ config FREETZ_LIB_libmbedx509
 
 choice
 	prompt "mbedTLS version"
-#	default FREETZ_MBEDTLS_VERSION_306
+	default FREETZ_MBEDTLS_VERSION_306
 	default FREETZ_MBEDTLS_VERSION_228
 	default FREETZ_MBEDTLS_VERSION_207
 
