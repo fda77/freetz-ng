@@ -1,6 +1,6 @@
 --- Makefile
 +++ Makefile
-@@ -623,7 +623,7 @@
+@@ -617,7 +617,7 @@
  gitwebstaticdir = $(gitwebdir)/static
  perllibdir = $(sharedir)/perl5
  localedir = $(sharedir)/locale
@@ -22,7 +22,7 @@
  
 --- templates/Makefile
 +++ templates/Makefile
-@@ -9,7 +9,7 @@
+@@ -6,7 +6,7 @@
  TAR ?= tar
  RM ?= rm -f
  prefix ?= $(HOME)
