@@ -11,7 +11,7 @@ $($(PKG)_STAGING_BINARY): gcc
 $($(PKG)_TARGET_BINARY): $($(PKG)_STAGING_BINARY)
 	$(INSTALL_LIBRARY_STRIP)
 
-$(pkg): $($(PKG)_STAGING_BINARY)
+$(pkg): $($(PKG)_TARGET_BINARY)
 
 $(pkg)-precompiled: $($(PKG)_TARGET_BINARY)
 
