@@ -195,7 +195,7 @@ jobs:
           [ "$TYPE" = "libs" ] && for x in $(sed -n 's/^[\tmenu]*config FREETZ_LIB_//p' make/libs/$pkg/Config.in); do grep -q "^FREETZ_LIB_$x=y" .config && BAD=n ; done
           echo "bad=$BAD" >> $GITHUB_OUTPUT
           [ "$BAD" = "y" ] && echo "Could not enable precompiled" && exit
-          [ "$BAD" = "n" ] && su freetz -c "umask 0022 && make ${pkg}-precompiled"
+          [ "$BAD" = "n" ] && su freetz -c "umask 0022 && make"
 
       - name: result
         if: steps.generate.outputs.bad == 'n'
