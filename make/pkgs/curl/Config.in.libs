@@ -10,13 +10,8 @@ if FREETZ_LIB_libcurl
 		prompt "Version"
 			default FREETZ_LIB_libcurl_WITH_VERSION_CURRENT
 
-		config FREETZ_LIB_libcurl_WITH_VERSION_ABANDON
-			bool "8.12.1"
-			depends on !FREETZ_SEPARATE_AVM_UCLIBC
-
 		config FREETZ_LIB_libcurl_WITH_VERSION_CURRENT
 			bool "8.15.0"
-			depends on FREETZ_SEPARATE_AVM_UCLIBC
 
 	endchoice
 
