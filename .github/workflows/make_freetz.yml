@@ -47,6 +47,14 @@ jobs:
 #     - name: locale
 #       run: locale-gen en_US.utf8 && locale-gen de_DE.UTF-8 && update-locale
 
+      - name: teeest
+        run: |
+          hostnamectl
+          cmake --version
+          make --version
+          gcc --version
+          openssl --version
+
       - name: sleep
         run: |
           SLEEP="$((1 + $(od -A n -t d -N 2 /dev/urandom | tr -d ' ') % 9))"
