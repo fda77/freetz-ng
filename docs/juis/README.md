@@ -84,13 +84,10 @@ Content: [FOS-Release](#fos-release) - [FOS-Labor](#fos-labor) - [FOS-Inhaus](#f
 ### FOS-Labor
   - HWR 226: [FRITZ.Box_7590-08.10-122720-LabBETA.image](http://download.avm.de/labor/Smart24P2/7590/FRITZ.Box_7590-08.10-122720-LabBETA.image)
   - HWR 227: [FRITZ.Box_4040-07.59.image](http://download.avm.de/firmware/4040/347831279831289213893218/FRITZ.Box_4040-07.59.image)
-  - HWR 233: [FRITZ.Box_6591_Cable-08.10-123013-LabBETA.image](http://download.avm.de/labor/Smart24P2/6591Cable/FRITZ.Box_6591_Cable-08.10-123013-LabBETA.image)
   - HWR 236: [FRITZ.Box_7530-08.10-123914-LabBETA.image](http://download.avm.de/labor/Smart24P2/7530/FRITZ.Box_7530-08.10-123914-LabBETA.image)
   - HWR 239: [FRITZ.Box_7583-07.39-103075-LabBETA.image](http://download.avm.de/labor/MOVE21/7583/FRITZ.Box_7583-07.39-103075-LabBETA.image)
   - HWR 247: [FRITZ.Box_7520-08.10-123542-LabBETA.image](http://download.avm.de/labor/Smart24P2/7520/FRITZ.Box_7520-08.10-123542-LabBETA.image)
-  - HWR 252: [FRITZ.Box_6660_Cable-08.10-123021-LabBETA.image](http://download.avm.de/labor/Smart24P2/6660Cable/FRITZ.Box_6660_Cable-08.10-123021-LabBETA.image)
   - HWR 258: [FRITZ.Box_6850_5G-08.10-124548-LabBETA.image](http://download.avm.de/labor/Smart24P2/68505G/FRITZ.Box_6850_5G-08.10-124548-LabBETA.image)
-  - HWR 259: [FRITZ.Box_7590_AX-08.10-122989-LabBETA.image](http://download.avm.de/labor/Smart24P2/7590AX/FRITZ.Box_7590_AX-08.10-122989-LabBETA.image)
   - HWR 260: [FRITZ.Box_7583_VDSL-07.39-103078-LabBETA.image](http://download.avm.de/labor/MOVE21/7583VDSL/FRITZ.Box_7583_VDSL-07.39-103078-LabBETA.image)
   - HWR 262: [FRITZ.Box_6850_LTE-08.10-124553-LabBETA.image](http://download.avm.de/labor/Smart24P2/6850LTE/FRITZ.Box_6850_LTE-08.10-124553-LabBETA.image)
   - HWR 267: [FRITZ.Box_6690_Cable-08.10-124562-LabBETA.image](http://download.avm.de/labor/Smart24P2/6690Cable/FRITZ.Box_6690_Cable-08.10-124562-LabBETA.image)
@@ -139,9 +136,9 @@ Content: [FOS-Release](#fos-release) - [FOS-Labor](#fos-labor) - [FOS-Inhaus](#f
   - MHW 07.02: [07.02.04.27.avm.de.upd](http://download.avm.de/dect/0702/smart24/07.02.04.27.avm.de.upd)
   - MHW 07.03: [07.03.04.25.avm.de.upd](http://download.avm.de/dect/0703/move21/07.03.04.25.avm.de.upd)
   - MHW 07.04: [07.04.04.27.avm.de.upd](http://download.avm.de/dect/0704/smart24/07.04.04.27.avm.de.upd)
-  - MHW 08.01: [08.01.04.67.avm.de.upd](http://download.avm.de/dect/0801/psq19p2/08.01.04.67.avm.de.upd)
-  - MHW 08.02: [08.02.04.67.avm.de.upd](http://download.avm.de/dect/0802/psq19p2/08.02.04.67.avm.de.upd)
-  - MHW 08.03: [08.03.04.67.avm.de.upd](http://download.avm.de/dect/0803/psq19p2/08.03.04.67.avm.de.upd)
+  - MHW 08.01: [08.01.04.93.avm.de.upd](http://download.avm.de/dect/0801/move21/08.01.04.93.avm.de.upd)
+  - MHW 08.02: [08.02.04.94.avm.de.upd](http://download.avm.de/dect/0802/move21/08.02.04.94.avm.de.upd)
+  - MHW 08.03: [08.03.04.94.avm.de.upd](http://download.avm.de/dect/0803/move21/08.03.04.94.avm.de.upd)
   - MHW 08.04: [08.04.05.11.avm.de.upd](http://download.avm.de/dect/0804/smart24p1/08.04.05.11.avm.de.upd)
   - MHW 10.01: [34.10.16.16.015.avm.de.upd](http://download.avm.de/dect/1001/Release/34.10.16.16.015.avm.de.upd)
 
@@ -149,10 +146,11 @@ Content: [FOS-Release](#fos-release) - [FOS-Labor](#fos-labor) - [FOS-Inhaus](#f
   - MHW 06.04: [06.04.03.54.avm.de.upd](http://download.avm.de/dect/0604/p15/06.04.03.54.avm.de.upd)
   - MHW 08.01: [08.01.05.11.avm.de.upd](http://download.avm.de/dect/0801/smart24p1/08.01.05.11.avm.de.upd)
   - MHW 08.02: [08.02.05.11.avm.de.upd](http://download.avm.de/dect/0802/smart24p1/08.02.05.11.avm.de.upd)
-  - MHW 08.03: [08.03.05.11.avm.de.upd](http://download.avm.de/dect/0803/smart24p1/08.03.05.11.avm.de.upd)
+  - MHW 08.03: [08.03.05.12.avm.de.upd](http://download.avm.de/dect/0803/labor/08.03.05.12.avm.de.upd)
   - MHW 08.04: [08.04.05.12.avm.de.upd](http://download.avm.de/dect/0804/labor/08.04.05.12.avm.de.upd)
 
 ### Dect-Inhaus
+  - MHW 08.03: [08.03.05.11.avm.de.upd](http://download.avm.de/dect/0803/smart24p1/08.03.05.11.avm.de.upd)
 
 ### BPjM
   - CRC c4118afb: [bpjm.data](http://download.avm.de/bpjm/283039/bpjm.data)
