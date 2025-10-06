@@ -191,6 +191,8 @@ jobs:
           [ -z "$TYPE" ] && echo -n 'Waiting ' && for x in $(seq 60); do echo -n '.' && sleep 1; done && echo ' done.' && git pull
           for x in pkgs libs; do [ -d make/$x/$pkg ] && TYPE=$x; done
           [ -z "$TYPE" ] && echo "No directory." && exit
+          [ "$TYPE" = "pkgs" ] && sed "/[^ ]FREETZ_PACKAGE_PYTHON[ =]/d"                                                                              -i .config
+          [ "$TYPE" = "pkgs" ] && echo     "FREETZ_PACKAGE_PYTHON=y"                                                                                    >> .config
           [ "$TYPE" = "pkgs" ] && sed "/[^ ]FREETZ_PACKAGE_${PKG}[ =]/d"                                                                              -i .config
           [ "$TYPE" = "pkgs" ] && echo     "FREETZ_PACKAGE_$PKG=y"                                                                                    >> .config
           [ "$TYPE" = "pkgs" ] && sed "/[^ ]FREETZ_LIB_lib${pkg}[ =]/d"                                                                               -i .config
